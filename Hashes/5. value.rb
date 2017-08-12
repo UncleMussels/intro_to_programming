@@ -3,4 +3,4 @@
 
 person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
 
-puts person.has_value?('web developer')
+puts person.has_value?('web developer') ? "#{person[:name]}'s a web dev!" : "Nah, #{person[:name]}'s a peasant!"
